@@ -1,0 +1,208 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li{
+    margin-right: 16px;
+}
+
+.navbar p{
+    margin-right: 16px;
+}
+
+.registerbutton{
+    border-radius: 19px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.hero-content{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.7;
+}
+.hero-content a{
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.hero-content h1{
+    position: relative;
+}
+
+.hero-subheading{
+    display: flex;
+    justify-content: center;
+    width: 83.5%;
+}
+
+#url_shortening {
+    color: #0065FE
+}
+
+#url_shortening::after{
+    content: '';
+    position: absolute;
+    left: 239px;
+    bottom: -7px;
+    width: 21%;
+    height: 6px;
+    background-color: #0065FE;
+    transform: skewY(-7deg);
+    transform-origin: top left;
+}
+.seamless-container{
+    text-align: center;
+    width: 80%;
+    align-items: center;
+}
+.onestop-left{
+    width: 25%;
+}
+
+.onestop-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.onestep-center{
+    display: flex;
+    align-items: center;
+}
+
+.onestep-boxone{
+    display: flex;
+    width: 45%;
+    margin-right: 46px;
+}
+
+.onestep-boxtwo{
+    display: flex;
+    width: 45%;
+}
+
+.subboxone_text{
+    display: block;
+}
+
+#possibility_text{
+    color: #0065FE;
+}
+
+.whychoose_box{
+    display: flex;
+    margin: 24px;
+}
+
+.whychoose_scissors{
+    width: 46%;
+    padding: 1rem;
+}
+.data_boxes{
+    margin: 50px;
+
+}
+
+.url_boxes{
+    display: flex;
+}
+
+.analytics_boxes{
+    display: flex;
+    margin: 10px;
+}
+.priceperfect{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.7;
+}
+#col_blue{
+    color: #0065FE;
+}
+#catering_text{
+    width: 62%;
+    margin: 0 auto;
+}
+#pricehead{
+    margin-bottom: 0;
+}
+
+.faq-container{
+    display: flex;
+    justify-content: center;
+}
+
+.faq-form-container{
+    background-color: white;
+}
+
+.price-box{
+    display: flex;
+    margin: 24px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.basic{
+display: flex;
+margin: 10px;
+}
+
+
+.getcustom{
+    border-radius: 19px;
+    background-color: blue;
+    padding: 2px;
+    color: white;
+}
+.empty{
+    border-radius: 19px;
+    padding: 2px;
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+}
